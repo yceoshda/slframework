@@ -1,0 +1,20 @@
+{
+    "menu": {
+        "toggle_navigation": "toggle_navigation",
+        "top": {
+            "admin_user": "admin_user",
+            "admin_cache": "admin_cache",
+            "lang": {
+                "en": "en",
+                "fr": "fr"
+            },
+            "login": "login",
+            "register": "register",
+            "user": {
+                "profile": "profile",
+                "user": "user",
+                "logout": "logout"
+            }
+        }
+    }
+}

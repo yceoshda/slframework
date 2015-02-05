@@ -1,0 +1,28 @@
+{
+    "btn": {
+        "delete": "delete",
+        "delete_icon": "trash",
+        "refresh": "refresh",
+        "refresh_icon": "refresh",
+        "deleteall": "deleteall",
+        "deleteall_icon": "trash"
+    },
+    "tags": {
+        "good": "uptodate",
+        "old": "warning",
+        "expired": "expired"
+    },
+    "index": {
+        "title": "cache admin",
+        "subtitle": "cache admin sub",
+        "thead": {
+            "filename": "filename",
+            "ttl": "ttl",
+            "actions": "actions"
+        }
+    },
+    "delete": {
+        "success": "delete success",
+        "failure": "delete failed"
+    }
+}

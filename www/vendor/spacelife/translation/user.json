@@ -1,0 +1,277 @@
+{
+    "btn": {
+        "edit": "edit",
+        "edit_icon": "pencil",
+        "delete": "delete",
+        "delete_icon": "trash",
+        "view": "view",
+        "view_icon": "zoom-in",
+        "save": "save",
+        "save_icon": "ok",
+        "return": "return",
+        "return_icon": "chevron-left",
+        "cancel": "cancel",
+        "cancel_icon": "remove",
+        "unlock": "unlock",
+        "unlock_icon": "thumbs-up",
+        "create": "create",
+        "create_icon": "plus",
+        "activate": "activate",
+        "activate_icon": "flash",
+        "connect": "connect",
+        "connect_icon": "link",
+        "facebook": "facebook",
+        "facebook_icon": "thumbs-up",
+        "forgot": "forgot",
+        "forgot_icon": "asterisk",
+        "register": "register",
+        "register_icon": "ok",
+        "send": "send",
+        "send_icon": "envelope"
+    },
+    "fields": {
+        "id": {
+            "label": "id",
+            "error": {
+                "required": "id_required",
+                "filter": "id_filter"
+            }
+        },
+        "login": {
+            "label": "login",
+            "placeholder": "login",
+            "error": {
+                "required": "login required",
+                "filter"  : "login invalid characters",
+                "extra"   : "login extra"
+            }
+        },
+        "first_name": {
+            "label": "first_name",
+            "error": {
+                "required": "first_name required",
+                "filter": "invalid first_name characters"
+            }
+        },
+        "last_name": {
+            "label": "last_name",
+            "error": {
+                "required": "last_name required",
+                "filter": "invalid last_name characters"
+            }
+        },
+        "email": {
+            "label": "email",
+            "placeholder": "",
+            "error": {
+                "required": "email required",
+                "filter": "email filter",
+                "pattern": "email pattern"
+            }
+        },
+        "name_visible": {
+            "label": "name_visible",
+            "error": {
+                "filter": "filter"
+            },
+            "private": {
+                "full": "private"
+            },
+            "public": {
+                "full": "public"
+            }
+        },
+        "gender": {
+            "label": "gender",
+            "error": {
+                "filter": "filter"
+            },
+            "mr": {
+                "abv": "mr",
+                "full": "mister"
+            },
+            "mrs": {
+                "abv": "mrs",
+                "full": "madam"
+            },
+            "oth": {
+                "abv": "oth",
+                "full": "other"
+            }
+        },
+        "is_admin": {
+            "label": "is_admin",
+            "error": {
+                "filter": "filter"
+            }
+        },
+        "lang": {
+            "label": "lang",
+            "error": {
+                "required": "lang_required",
+                "filter": "lang_filter",
+                "extra": "lang_extra"
+            },
+            "fr": {
+                "abv": "fr",
+                "full": "french"
+            },
+            "en": {
+                "abv": "en",
+                "full": "english"
+            }
+        },
+        "last_login": {
+            "label": "last_login",
+            "error": {
+                "required": "required failed"
+            },
+            "format": "Y m d @ h:i:s"
+        },
+        "fail_count": {
+            "label": "fail_count",
+            "error": {
+                "required": "required failed"
+            }
+        },
+        "last_fail": {
+            "label": "last_failed",
+            "error": {
+                "required": "required failed"
+            },
+            "format": "Y m d @ h:i:s"
+        },
+        "created": {
+            "label": "created",
+            "error": {
+                "required": "failed created"
+            },
+            "format": "Y m d"
+        },
+        "updated": {
+            "label": "updated",
+            "error": {
+                "required": "failed updated"
+            },
+            "format": "Y m d"
+        },
+        "password": {
+            "label": "password",
+            "error": {
+                "required": "password required"
+            }
+        },
+        "current_password": {
+            "label": "current_password",
+            "error": {
+                "required": "password required"
+            }
+        },
+        "password2": {
+            "label": "password2",
+            "error": {
+                "required": "password2 required",
+                "extra": "password2 extra"
+            }
+        }
+    },
+    "activate": {
+        "title": "activate",
+        "subtitle": "activate",
+        "welcome": "welcome",
+        "notices": {
+            "success": "activation successfull",
+            "failure": "failed to activate"
+        }
+    },
+    "changePassword": {
+        "title": "changePassword",
+        "failure": "An error occured while changing your password",
+        "success": "Password changed successfully"
+    },
+    "editprofile": {
+        "title": "Edit profile",
+        "success": "Successfully profile edited",
+        "failure": "profile edition failed"
+    },
+    "facebook": {
+        "created": "created",
+        "login": "login",
+        "link": {
+            "success": "success",
+            "failure": "failure"
+        }
+    },
+    "login": {
+        "title": "login",
+        "subtitle": "login sub",
+        "failure": "Invalid login or password",
+        "success": "You are connected"
+    },
+    "lost": {
+        "title": "lost",
+        "subtitle": "lost"
+    },
+    "lostPassword": {
+        "mail": {
+            "title": "Password recovery",
+            "sent": "password recovery e-mail sent"
+        }
+    },
+    "profile": {
+        "title": "Profile",
+        "login": "Login",
+        "created": "Galactic leader since",
+        "name": "Name",
+        "name_visible": {
+                "label": "Display my name",
+                "private": "Private",
+                "public": "Public"
+            },
+        "email": "E-mail",
+        "notfound": "User not found",
+        "changePassword": "Change Password",
+        "editProfile": "Edit Profile",
+        "gender": {
+                "label": "Gender",
+                "mr": {
+                    "abv": "Mr",
+                    "full": "Mister",
+                    "sex": "male"
+                },
+                "mrs": {
+                    "abv": "Mrs",
+                    "full": "Madam",
+                    "sex": "female"
+                },
+                "oth": {
+                    "abv": "Oth",
+                    "full": "Other",
+                    "sex": "Unknown"
+                }
+            },
+        "lang": {
+            "label": "Prefered language",
+            "en": "English",
+            "fr": "French"
+        },
+        "linkFacebook": "linkFacebook"
+    },
+    "register" : {
+        "title": "register",
+        "subtitle": "register subtitle",
+        "success": "register success",
+        "failure": "register failed"
+    },
+    "registred": {
+        "title": "registred",
+        "subtitle": "sub registred"
+    },
+    "resetPassword": {
+        "title": "reset password",
+        "subtitle": "new password",
+        "success": "Password successfully resetted",
+        "failure": "An error occurred while resetting your password"
+    },
+    "dateFormat": "Y m d",
+}

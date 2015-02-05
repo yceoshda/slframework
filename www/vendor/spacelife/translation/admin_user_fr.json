@@ -1,0 +1,166 @@
+{
+    "btn": {
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "view": "Detail",
+        "save": "Sauvegarder",
+        "return": "Retour",
+        "cancel": "Annuler",
+        "unlock": "Déverrouiller",
+        "create": "Créer"
+    },
+    "fields": {
+        "id": {
+            "label": "ID"
+        },
+        "login": {
+            "label": "Identifiant",
+            "placeholder": "login",
+            "error": {
+                "required": "L'identifiant est obligatoire et doit etre d'au moins 4 caractères",
+                "filter": "Les caractères autorisés dans le login sont: 0-9 a-z A-Z _"
+            }
+        },
+        "first_name": {
+            "label": "Prenom",
+            "error": {
+                "required": "Le prénom doit faire moins de 255 caractères",
+                "filter": "Caractères invalides dans le prénom, les caractères autorisés sont: 0-9 ' a-z A-Z _ è é ê à ç ñ -"
+            }
+        },
+        "last_name": {
+            "label": "Nom",
+            "error": {
+                "required": "Le nom doit faire moins de 255 caractères",
+                "filter": "Caractères invalides dans le nom, les caractères autorisés sont: 0-9 ' a-z A-Z _ è é ê à ç ñ -"
+            }
+        },
+        "email": {
+            "label": "E-Mail",
+            "error": {
+                "required": "L'adresse e-mail est obligatoire",
+                "filter": "L'e-mail contient des caractères invalides",
+                "pattern": "L'adresse e-mail est invalide"
+            }
+        },
+        "name_visible": {
+            "label": "Visibilité",
+            "private": {
+                "full": "Privé"
+            },
+            "public": {
+                "full": "Publique"
+            }
+        },
+        "gender": {
+            "label": "Civilité",
+            "mr": {
+                "abv": "M.",
+                "full": "Monsieur"
+            },
+            "mrs": {
+                "abv": "Mme.",
+                "full": "Madame"
+            },
+            "oth": {
+                "abv": "Aut.",
+                "full": "Alien"
+            }
+        },
+        "is_admin": {
+            "label": "Admin"
+        },
+        "lang": {
+            "label": "Langue",
+            "fr": {
+                "abv": "fr",
+                "full": "Français"
+            },
+            "en": {
+                "abv": "en",
+                "full": "Anglais"
+            }
+        },
+        "last_login": {
+            "label": "Dernière connexion",
+            "format": "d / m / Y @ h:i:s"
+        },
+        "fail_count": {
+            "label": "Nombre d'échecs de connexion"
+        },
+        "last_fail": {
+            "label": "Dernier échec de connexion",
+            "format": "d / m / Y @ h:i:s"
+        },
+        "created": {
+            "label": "Date de création",
+            "format": "d / m / Y @ h:i:s"
+        },
+        "updated": {
+            "label": "Dernière modification",
+            "format": "d / m / Y @ h:i:s"
+        },
+        "password": {
+            "label": "Mot de passe",
+            "error": {
+                "required": "Le nouveau mot de passe doit etre d'au moins 8 caracteres"
+            }
+        },
+        "password2": {
+            "label": "Re-mot de passe",
+            "error": {
+                "required": "Le nouveau mot de passe doit etre d'au moins 8 caracteres",
+                "extra": "Les deux mots de passe doivent etre identiques"
+            }
+        }
+    },
+    "tags": {
+        "admin": "Admin",
+        "locked": "Verrouillé",
+        "name_visible": {
+            "private": "Privé",
+            "public": "Publique"
+        }
+    },
+    "create": {
+        "title": "Créer un nouvel utilisateur",
+        "subtitle": "",
+        "success": "Utilisateur créé avec succes",
+        "failure": "Erreur lors de la création de l'utilisateur",
+        "mail_title": "Creation d un compte",
+        "mail_sent": "E-mail d'activation envoyé",
+        "mail_failed": "Erreur lors de l'envoi de l'e-mail d'activation"
+    },
+    "delete": {
+        "title": "Suppression d'un utilisateur",
+        "subtitle": "",
+        "confirm": "Etes-vous sur de vouloir supprimer l'utilisateur :",
+        "success": "Utilisateur supprimé avec succès",
+        "failure": "Une erreur est survenue lors de la suppression"
+    },
+    "edit": {
+        "title": "Edition de l'utilisateur",
+        "subtitle": "",
+        "success": "Utilisateur modifié avec succes",
+        "failure": "La modification à échouée"
+    },
+    "list": {
+        "title": "Liste des utilisateurs",
+        "subtitle": "Utilisateurs enregistrés",
+        "nosuer": "Aucun utilisateur ... bizarre puisse que vous êtes la !",
+        "thead": {
+            "login": "Identifiant",
+            "tags": "Etiquettes",
+            "actions": "Actions"
+        }
+    },
+    "unlock": {
+        "success": "Utilisateur déverrouillé avec succès",
+        "failure": "Erreur lors du déverrouillage de l'utilisateur"
+    },
+    "view": {
+        "title": "Détails de l'utilisateur",
+        "subtitle": "",
+        "nouser": "Utilisateur introuvable"
+    }
+}

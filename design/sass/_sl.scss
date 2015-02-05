@@ -1,0 +1,60 @@
+//  SpaceLife-Framework css addition
+
+*{ @include box-sizing(border-box); }
+body {
+    padding-top: 50px;
+    margin: 0;
+}
+
+//  captcha like (hidden field supposed to be empty therefore hidden from normal view)
+.slhuman {
+    display: none;
+}
+
+.sl-notif-area {
+    background:      transparent;
+    display:         none;
+    position:        absolute;
+    right:           25px;
+    top:             25px;
+}
+
+.sl-notif-show {
+    display: block;
+}
+
+.sl-notif-hide {
+    display: none;
+}
+
+.cookie-bar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 7px 20px;
+    background-color: #444;
+    font-size: 0.9em;
+}
+
+.cookie-bar a{
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+    }
+        /* style */
+}
+
+.cookie-btn{
+    display: inline;
+    margin-left: 15px;
+    padding: 4px 5px;
+    border-radius: 3px;
+    background-color: $brand-primary;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cookie-btn-deny{
+    background-color: $brand-danger;
+}

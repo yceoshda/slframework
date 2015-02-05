@@ -1,0 +1,20 @@
+{
+    "btn": {
+        "delete": "Delete",
+        "refresh": "Refresh",
+        "deleteall": "Delete All"
+    },
+    "index": {
+        "title": "Cache administration",
+        "subtitle": "",
+        "thead": {
+            "filename": "File name",
+            "ttl": "Time to live",
+            "actions": "Actions"
+        }
+    },
+    "delete": {
+        "success": "Cache deletion successfull",
+        "failure": "Cache deletion failed"
+    }
+}

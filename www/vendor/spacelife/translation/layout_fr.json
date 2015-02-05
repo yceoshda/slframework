@@ -1,0 +1,27 @@
+{
+    "menu": {
+        "toggle_navigation": "Afficher le menu",
+        "top": {
+            "home": "Accueil",
+            "about": "A propos",
+            "contact": "Contact",
+            "lang": {
+                "en": "EN",
+                "fr": "FR"
+            },
+            "login": "Connexion",
+            "register": "Inscription",
+            "user": {
+                "profile": "Profil",
+                "admin": "Administration",
+                "logout": "Deconnexion"
+            }
+        }
+    },
+    "cnil_compliance":{
+        "text": "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de Cookies permettant de réaliser des statistiques anonymes de visites.",
+        "link": "En savoir plus",
+        "btn_ok": "Ok",
+        "btn_deny": "Refuser"
+    }
+}

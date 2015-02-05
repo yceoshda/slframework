@@ -1,0 +1,20 @@
+{
+    "menu": {
+        "toggle_navigation": "Afficher la navigation",
+        "top": {
+            "admin_user": "Utilisateurs",
+            "admin_cache": "Cache",
+            "lang": {
+                "en": "EN",
+                "fr": "FR"
+            },
+            "login": "Connexion",
+            "register": "Inscription",
+            "user": {
+                "profile": "Profil",
+                "user": "Mode Utilisateur",
+                "logout": "Deconnexion"
+            }
+        }
+    }
+}

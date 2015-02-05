@@ -1,0 +1,21 @@
+beta:
+    scheme: sftp
+    host:
+    port:
+    user:
+    privateKey:
+    check: false
+    path:
+        local: www/
+        remote: www/
+
+prod:
+    scheme: sftp
+    host:
+    port:
+    user:
+    privateKey:
+    check: true
+    path:
+        local: www/
+        remote: www/

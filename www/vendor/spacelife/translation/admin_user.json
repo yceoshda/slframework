@@ -1,0 +1,217 @@
+{
+    //
+    //  Utilities and generics
+    //
+    //  Buttons
+    "btn": {
+        "edit": "edit",
+        "edit_icon": "pencil",
+        "delete": "delete",
+        "delete_icon": "trash",
+        "view": "view",
+        "view_icon": "zoom-in",
+        "save": "save",
+        "save_icon": "ok",
+        "return": "return",
+        "return_icon": "chevron-left",
+        "cancel": "cancel",
+        "cancel_icon": "remove",
+        "unlock": "unlock",
+        "unlock_icon": "thumbs-up",
+        "create": "create",
+        "create_icon": "plus"
+    },
+    //  Fields
+    "fields": {
+        "id": {
+            "label": "id",
+            "error": {
+                "required": "id_required",
+                "filter": "id_filter"
+            }
+        },
+        "login": {
+            "label": "login",
+            "placeholder": "login",
+            "error": {
+                "required": "login required",
+                "filter"  : "login invalid characters"
+            }
+        },
+        "first_name": {
+            "label": "first_name",
+            "error": {
+                "required": "first_name required",
+                "filter": "invalid first_name characters"
+            }
+        },
+        "last_name": {
+            "label": "last_name",
+            "error": {
+                "required": "last_name required",
+                "filter": "invalid last_name characters"
+            }
+        },
+        "email": {
+            "label": "email",
+            "error": {
+                "required": "email required",
+                "filter": "email filter",
+                "pattern": "email pattern"
+            }
+        },
+        "name_visible": {
+            "label": "name_visible",
+            "error": {
+                "filter": "filter"
+            },
+            "private": {
+                "full": "private"
+            },
+            "public": {
+                "full": "public"
+            }
+        },
+        "gender": {
+            "label": "gender",
+            "error": {
+                "filter": "filter"
+            },
+            "mr": {
+                "abv": "mr",
+                "full": "mister"
+            },
+            "mrs": {
+                "abv": "mrs",
+                "full": "madam"
+            },
+            "oth": {
+                "abv": "oth",
+                "full": "other"
+            }
+        },
+        "is_admin": {
+            "label": "is_admin",
+            "error": {
+                "filter": "filter"
+            }
+        },
+        "lang": {
+            "label": "lang",
+            "error": {
+                "required": "lang_required",
+                "filter": "lang_filter",
+                "extra": "lang_extra"
+            },
+            "fr": {
+                "abv": "fr",
+                "full": "french"
+            },
+            "en": {
+                "abv": "en",
+                "full": "english"
+            }
+        },
+        "last_login": {
+            "label": "last_login",
+            "error": {
+                "required": "required failed"
+            },
+            "format": "Y m d @ h:i:s"
+        },
+        "fail_count": {
+            "label": "fail_count",
+            "error": {
+                "required": "required failed"
+            }
+        },
+        "last_fail": {
+            "label": "last_failed",
+            "error": {
+                "required": "required failed"
+            },
+            "format": "Y m d @ h:i:s"
+        },
+        "created": {
+            "label": "created",
+            "error": {
+                "required": "failed created"
+            },
+            "format": "Y m d"
+        },
+        "updated": {
+            "label": "updated",
+            "error": {
+                "required": "failed updated"
+            },
+            "format": "Y m d"
+        },
+        "password": {
+            "label": "password",
+            "error": {
+                "required": "password required"
+            }
+        },
+        "password2": {
+            "label": "password2",
+            "error": {
+                "required": "password2 required",
+                "extra": "password2 extra"
+            }
+        }
+    },
+    //  Tags
+    "tags": {
+        "admin": "admin",
+        "locked": "locked",
+        "name_visible": {
+            "private": "private",
+            "public": "public"
+        }
+    },
+    //
+    //  Pages
+    //
+    "create": {
+        "title": "create",
+        "subtitle": "create subtitle",
+        "success": "success",
+        "failure": "failure",
+        "mail_title": "account created",
+        "mail_sent": "mail_sent",
+        "mail_failed": "mail_failed"
+    },
+    "delete": {
+        "title": "delete",
+        "subtitle": "delete subtitle",
+        "confirm": "confirm",
+        "success": "success",
+        "failure": "failure"
+    },
+    "edit": {
+        "title": "title",
+        "subtitle": "subtitle",
+        "success": "success",
+        "failure": "failure"
+    },
+    "list": {
+        "title": "title",
+        "subtitle": "subtitle",
+        "nosuer": "nouser",
+        "thead": {
+            "login": "login",
+            "tags": "tags",
+            "actions": "actions"
+        }
+    },
+    "unlock": {
+        "success": "success",
+        "failure": "failure"
+    },
+    "view": {
+        "title": "title",
+        "subtitle": "subtitle",
+        "nouser": "subtitle"
+    }
+
+}

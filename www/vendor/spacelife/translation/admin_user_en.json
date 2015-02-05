@@ -1,0 +1,166 @@
+{
+    "btn": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "Details",
+        "save": "Save",
+        "return": "Return",
+        "cancel": "Cancel",
+        "unlock": "Unlock",
+        "create": "Create"
+    },
+    "fields": {
+        "id": {
+            "label": "ID"
+        },
+        "login": {
+            "label": "Login",
+            "placeholder": "login",
+            "error": {
+                "required": "login is mandatory and must be at least 4 characters long",
+                "filter": "Invalid character, autorized characters are: 0-9 a-z A-Z _"
+            }
+        },
+        "first_name": {
+            "label": "First name",
+            "error": {
+                "required": "First name must be less than 255 characters long",
+                "filter": "Invalid characters, authorized characters are: 0-9 ' a-z A-Z _ è é ê à ç ñ -"
+            }
+        },
+        "last_name": {
+            "label": "Last name",
+            "error": {
+                "required": "Last name must be less than 255 characters long",
+                "filter": "Invalid characters, authorized characters are: 0-9 ' a-z A-Z _ è é ê à ç ñ -"
+            }
+        },
+        "email": {
+            "label": "E-Mail",
+            "error": {
+                "required": "E-Mail address is mandatory",
+                "filter": "Invalid characters in email address",
+                "pattern": "Invalid e-mail address"
+            }
+        },
+        "name_visible": {
+            "label": "Name Visibility",
+            "private": {
+                "full": "private"
+            },
+            "public": {
+                "full": "public"
+            }
+        },
+        "gender": {
+            "label": "Gender",
+            "mr": {
+                "abv": "Mr",
+                "full": "Mister"
+            },
+            "mrs": {
+                "abv": "Mrs",
+                "full": "Madam"
+            },
+            "oth": {
+                "abv": "Oth",
+                "full": "Other"
+            }
+        },
+        "is_admin": {
+            "label": "Is admin"
+        },
+        "lang": {
+            "label": "Language",
+            "fr": {
+                "abv": "FR",
+                "full": "French"
+            },
+            "en": {
+                "abv": "EN",
+                "full": "English"
+            }
+        },
+        "last_login": {
+            "label": "Last login",
+            "format": "Y m d @ h:i:s"
+        },
+        "fail_count": {
+            "label": "Fail count"
+        },
+        "last_fail": {
+            "label": "Last failed login",
+            "format": "Y m d @ h:i:s"
+        },
+        "created": {
+            "label": "Created",
+            "format": "Y m d"
+        },
+        "updated": {
+            "label": "Updated",
+            "format": "Y m d"
+        },
+        "password": {
+            "label": "Password",
+            "error": {
+                "required": "New password must be at least 8 charecters long"
+            }
+        },
+        "password2": {
+            "label": "Password again",
+            "error": {
+                "required": "New password must be at least 8 characters long",
+                "extra": "Both passwords must match"
+            }
+        }
+    },
+    "tags": {
+        "admin": "Admin",
+        "locked": "Locked",
+        "name_visible": {
+            "private": "Private",
+            "public": "Public"
+        }
+    },
+    "create": {
+        "title": "Create a new user",
+        "subtitle": "",
+        "success": "User successfully created",
+        "failure": "User creation failed",
+        "mail_title": "Account creation",
+        "mail_sent": "Activation e-mail sent",
+        "mail_failed": "Failed to send activation e-mail"
+    },
+    "delete": {
+        "title": "Delete user",
+        "subtitle": "",
+        "confirm": "You are about to delete user:",
+        "success": "User successfully deleted",
+        "failure": "An error occured deleting the user"
+    },
+    "edit": {
+        "title": "Edit user",
+        "subtitle": "",
+        "success": "User successfully edited",
+        "failure": "An error occured while saving user"
+    },
+    "list": {
+        "title": "Users list",
+        "subtitle": "List of registered users",
+        "nosuer": "No user found ... weird since you are here !",
+        "thead": {
+            "login": "Login",
+            "tags": "Tags",
+            "actions": "Actions"
+        }
+    },
+    "unlock": {
+        "success": "User successfully unlocked",
+        "failure": "Failed to unlock user"
+    },
+    "view": {
+        "title": "Viewing user details",
+        "subtitle": "",
+        "nouser": "User not found"
+    }
+}

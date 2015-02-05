@@ -1,0 +1,17 @@
+{
+    "name": "spacelife/slf",
+    "authors": [
+        {
+            "name": "Yceos HdA",
+            "email": "yceoshda@gmail.com"
+        }
+    ],
+    "require": {
+        "facebook/php-sdk-v4": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "spacelife\\": "vendor/spacelife"
+        }
+    }
+}

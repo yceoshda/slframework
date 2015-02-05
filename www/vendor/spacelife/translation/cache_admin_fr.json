@@ -1,0 +1,20 @@
+{
+    "btn": {
+        "delete": "Supprimer",
+        "refresh": "Recharger",
+        "deleteall": "Supprimer tout"
+    },
+    "index": {
+        "title": "Administration des caches",
+        "subtitle": "",
+        "thead": {
+            "filename": "Fichier",
+            "ttl": "Durée de vie",
+            "actions": "Actions"
+        }
+    },
+    "delete": {
+        "success": "Cache supprimé avec succès",
+        "failure": "Echec de suppression du cache"
+    }
+}

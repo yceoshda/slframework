@@ -1,0 +1,229 @@
+{
+    "btn": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "View",
+        "save": "Save",
+        "return": "Return",
+        "cancel": "Cancel",
+        "unlock": "Unlock",
+        "create": "Create",
+        "activate": "Activate",
+        "connect": "Log In",
+        "facebook": "Use Facebook Connect",
+        "forgot": "Forgot password?",
+        "register": "Register"
+    },
+    "fields": {
+        "id": {
+            "label": "ID"
+        },
+        "login": {
+            "label": "Login",
+            "placeholder": "login",
+            "error": {
+                "required": "login is mandatory and must be at least 4 characters long",
+                "filter": "Invalid character, autorized characters are: 0-9 a-z A-Z _",
+                "extra": "Login is not available"
+            }
+        },
+        "first_name": {
+            "label": "First name",
+            "error": {
+                "required": "First name must be less than 255 characters long",
+                "filter": "Invalid characters, authorized characters are: 0-9 ' a-z A-Z _ è é ê à ç ñ -"
+            }
+        },
+        "last_name": {
+            "label": "Last name",
+            "error": {
+                "required": "Last name must be less than 255 characters long",
+                "filter": "Invalid characters, authorized characters are: 0-9 ' a-z A-Z _ è é ê à ç ñ -"
+            }
+        },
+        "email": {
+            "label": "E-Mail",
+            "placeholder": "my.name@example.com",
+            "error": {
+                "required": "E-Mail address is mandatory",
+                "filter": "Invalid characters in email address",
+                "pattern": "Invalid e-mail address"
+            }
+        },
+        "name_visible": {
+            "label": "Name Visibility",
+            "private": {
+                "full": "private"
+            },
+            "public": {
+                "full": "public"
+            }
+        },
+        "gender": {
+            "label": "Gender",
+            "mr": {
+                "abv": "Mr",
+                "full": "Mister"
+            },
+            "mrs": {
+                "abv": "Mrs",
+                "full": "Madam"
+            },
+            "oth": {
+                "abv": "Oth",
+                "full": "Other"
+            }
+        },
+        "is_admin": {
+            "label": "Is admin"
+        },
+        "lang": {
+            "label": "Language",
+            "fr": {
+                "abv": "FR",
+                "full": "French"
+            },
+            "en": {
+                "abv": "EN",
+                "full": "English"
+            }
+        },
+        "last_login": {
+            "label": "Last login",
+            "format": "Y m d @ h:i:s"
+        },
+        "fail_count": {
+            "label": "Fail count"
+        },
+        "last_fail": {
+            "label": "Last failed login",
+            "format": "Y m d @ h:i:s"
+        },
+        "created": {
+            "label": "Created",
+            "format": "Y m d"
+        },
+        "updated": {
+            "label": "Updated",
+            "format": "Y m d"
+        },
+        "password": {
+            "label": "Password",
+            "error": {
+                "required": "New password must be at least 8 charecters long"
+            }
+        },
+        "current_password": {
+            "label": "Current Password",
+            "error": {
+                "required": "Current password required"
+            }
+        },
+        "password2": {
+            "label": "Password again",
+            "error": {
+                "required": "New password must be at least 8 characters long",
+                "extra": "Both passwords must match"
+            }
+        }
+    },
+    "activate": {
+        "title": "activate",
+        "subtitle": "activate",
+        "welcome": "welcome",
+        "notices": {
+            "success": "activation successfull",
+            "failure": "failed to activate"
+        }
+    },
+    "changePassword": {
+        "title": "Change Password",
+        "failure": "An error occured while changing your password",
+        "success": "Password changed successfully"
+    },
+    "editprofile": {
+        "title": "Edit profile",
+        "success": "Successfully edited profile",
+        "failure": "An error occurred while editing your profile"
+    },
+    "facebook": {
+        "created": "Account successfully created from Facebook",
+        "login": "Connected using Facebook",
+        "link": {
+            "success": "Facebook account successfully linked",
+            "failure": "Failed to link facebook account"
+        }
+    },
+    "login": {
+        "title": "Login",
+        "subtitle": "Please log in to with your credentials",
+        "failure": "Invalid login or password",
+        "success": "You are connected"
+    },
+    "lost": {
+        "title": "Forgot your password?",
+        "subtitle": "Please enter your e-mail address."
+    },
+    "lostPassword": {
+        "mail": {
+            "title": "Password recovery",
+            "sent": "Recovery e-mail sent"
+        },
+    },
+    "profile": {
+        "title": "Profile",
+        "login": "Login",
+        "created": "Galactic leader since",
+        "name": "Name",
+        "name_visible": {
+                "label": "Display my name",
+                "private": "Private",
+                "public": "Public"
+            },
+        "email": "E-mail",
+        "notfound": "User not found",
+        "changePassword": "Change Password",
+        "editProfile": "Edit Profile",
+        "gender": {
+                "label": "Gender",
+                "mr": {
+                    "abv": "Mr",
+                    "full": "Mister",
+                    "sex": "male"
+                },
+                "mrs": {
+                    "abv": "Mrs",
+                    "full": "Madam",
+                    "sex": "female"
+                },
+                "oth": {
+                    "abv": "Oth",
+                    "full": "Other",
+                    "sex": "Unknown"
+                }
+            },
+        "lang": {
+            "label": "Prefered language",
+            "en": "English",
+            "fr": "French"
+        },
+        "linkFacebook": "Link Facebook Connect"
+    },
+    "register": {
+        "title": "Registration",
+        "subtitle": "Sign-up and become a galactic leader.",
+        "success": "Registration successfull",
+        "failure": "An error occurred during registration",
+    },
+    "registred": {
+        "title": "Congratulations",
+        "subtitle": "You have successfully registered as a galactic leader"
+    },
+    "resetPassword": {
+        "title": "Reset your password",
+        "subtitle": "",
+        "success": "Password successfully resetted",
+        "failure": "An error occurred while resetting your password"
+    },
+    "dateFormat": "m / d / Y",
+}

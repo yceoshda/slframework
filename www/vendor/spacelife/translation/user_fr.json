@@ -1,0 +1,230 @@
+{
+    "btn": {
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "view": "Detail",
+        "save": "Sauvegarder",
+        "return": "Retour",
+        "cancel": "Annuler",
+        "unlock": "Déverrouiller",
+        "create": "Créer",
+        "activate": "Activer",
+        "connect": "Connexion",
+        "facebook": "Utiliser Facebook Connect",
+        "forgot": "Mot de passe oublié ?",
+        "register": "Inscription",
+        "send": "Envoyer"
+    },
+    "fields": {
+        "id": {
+            "label": "ID"
+        },
+        "login": {
+            "label": "Identifiant",
+            "placeholder": "login",
+            "error": {
+                "required": "L'identifiant est obligatoire et doit etre d'au moins 4 caractères",
+                "filter": "Les caractères autorisés dans le login sont: 0-9 a-z A-Z _",
+                "extra" : "L'identifiant n'est pas disponible"
+            }
+        },
+        "first_name": {
+            "label": "Prenom",
+            "error": {
+                "required": "Le prénom doit faire moins de 255 caractères",
+                "filter": "Caractères invalides dans le prénom, les caractères autorisés sont: 0-9 ' a-z A-Z _ è é ê à ç ñ -"
+            }
+        },
+        "last_name": {
+            "label": "Nom",
+            "error": {
+                "required": "Le nom doit faire moins de 255 caractères",
+                "filter": "Caractères invalides dans le nom, les caractères autorisés sont: 0-9 ' a-z A-Z _ è é ê à ç ñ -"
+            }
+        },
+        "email": {
+            "label": "E-Mail",
+            "placeholder": "mon.nom@exemple.fr",
+            "error": {
+                "required": "L'adresse e-mail est obligatoire",
+                "filter": "L'e-mail contient des caractères invalides",
+                "pattern": "L'adresse e-mail est invalide"
+            }
+        },
+        "name_visible": {
+            "label": "Visibilité",
+            "private": {
+                "full": "Privé"
+            },
+            "public": {
+                "full": "Publique"
+            }
+        },
+        "gender": {
+            "label": "Civilité",
+            "mr": {
+                "abv": "M.",
+                "full": "Monsieur"
+            },
+            "mrs": {
+                "abv": "Mme.",
+                "full": "Madame"
+            },
+            "oth": {
+                "abv": "Aut.",
+                "full": "Alien"
+            }
+        },
+        "is_admin": {
+            "label": "Admin"
+        },
+        "lang": {
+            "label": "Langue",
+            "fr": {
+                "abv": "fr",
+                "full": "Français"
+            },
+            "en": {
+                "abv": "en",
+                "full": "Anglais"
+            }
+        },
+        "last_login": {
+            "label": "Dernière connexion",
+            "format": "d / m / Y @ h:i:s"
+        },
+        "fail_count": {
+            "label": "Nombre d'échecs de connexion"
+        },
+        "last_fail": {
+            "label": "Dernier échec de connexion",
+            "format": "d / m / Y @ h:i:s"
+        },
+        "created": {
+            "label": "Date de création",
+            "format": "d / m / Y @ h:i:s"
+        },
+        "updated": {
+            "label": "Dernière modification",
+            "format": "d / m / Y @ h:i:s"
+        },
+        "password": {
+            "label": "Mot de passe",
+            "error": {
+                "required": "Le nouveau mot de passe doit etre d'au moins 8 caracteres"
+            }
+        },
+        "current_password": {
+            "label": "Mot de passe actuel",
+            "error": {
+                "required": "Mot de passe actuel obligatoire"
+            }
+        },
+        "password2": {
+            "label": "Re-mot de passe",
+            "error": {
+                "required": "Le nouveau mot de passe doit etre d'au moins 8 caracteres",
+                "extra": "Les deux mots de passe doivent etre identiques"
+            }
+        }
+    },
+    "activate": {
+        "title": "Activer votre compte",
+        "subtitle": "",
+        "welcome": "Un administrateur a créé un compte pour vous, veuillez saisir un mot de passe pour en terminer l'activation.",
+        "notices": {
+            "success": "L'activation s'est déroulée avec succès",
+            "failure": "Une erreur est survenue durant l'activation de votre compte"
+        }
+    },
+    "changePassword": {
+        "title": "Changer de mot de passe",
+        "failure": "Une erreur est survenue lors du changement de votre mot de passe",
+        "success": "Mot de passe changé avec succès"
+    },
+    "editprofile": {
+        "title": "Edition du profil",
+        "success": "Profil modifié avec succès",
+        "failure": "Erreur lors de l'édition du profil"
+    },
+    "facebook": {
+        "created": "Compte créé avec succès à partir de Facebook",
+        "login": "Connexion via Facebook",
+        "link": {
+            "success": "Compte Facebook lié avec succès",
+            "failure": "Echec de la liaison du compte Fracebook"
+        }
+    },
+    "login": {
+        "title": "Connexion",
+        "subtitle": "Merci de vous connecter en utilisant vos identifiants",
+        "failure": "Identifiant ou mot de passe invalide",
+        "success": "Vous etes connecte"
+    },
+    "lost": {
+        "title": "Mot de passe oublié ?",
+        "subtitle": "Veuillez saisir votre adresse e-mail."
+    },
+    "lostPassword": {
+        "mail": {
+            "title": "Recuperation du mot de passe",
+            "sent": "E-mail de recuperation envoye"
+        }
+    },
+    "profile": {
+        "title": "Profil",
+        "login": "Identifiant",
+        "created": "Dirigeant galactique depuis",
+        "name": "Nom",
+        "name_visible": {
+                "label": "Affichage du nom",
+                "private": "Prive",
+                "public": "Publique"
+            },
+        "email": "E-mail",
+        "notfound": "Utilisateur introuvable",
+        "changePassword": "Changer le mot de passe",
+        "editProfile": "Editer le profil",
+        "gender": {
+                "label": "Civilite",
+                "mr": {
+                    "abv": "M.",
+                    "full": "Monsieur",
+                    "sex": "homme"
+                },
+                "mrs": {
+                    "abv": "Mme.",
+                    "full": "Madame",
+                    "sex": "femme"
+                },
+                "oth": {
+                    "abv": "Aut.",
+                    "full": "Autre",
+                    "sex": "inconnu"
+                }
+            },
+        "lang": {
+            "label": "Langue preferee",
+            "en": "Anglais",
+            "fr": "Francais"
+        },
+        "linkFacebook": "Lier Facebook Connect"
+    },
+    "register" : {
+        "title": "Inscription",
+        "subtitle": "S'inscrire et devenir un dirigeant galactique.",
+        "success": "Inscription reussie",
+        "failure": "Une erreur est survenue lors de l'inscription",
+    },
+    "registred": {
+        "title": "Félicitations",
+        "subtitle": "Votre inscription de leader galactique est un succès"
+    },
+    "resetPassword": {
+        "title": "Réinitialiser votre mot de passe",
+        "subtitle": "",
+        "success": "Mot de passe réinitialisé avec succès",
+        "failure": "Une erreur est survenue durant la réinitialisation de votre mot de passe"
+    },
+    "dateFormat": "d / m / Y",
+}

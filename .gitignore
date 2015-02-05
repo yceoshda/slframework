@@ -1,0 +1,16 @@
+logs/*
+!logs/.gitignore
+*.sublime-workspace
+node/node_modules/*
+node_modules/*
+www/vendor/composer/*
+www/vendor/facebook/*
+www/vendor/autoload.php
+www/vendor/facebook/**
+.sass-cache/**
+!.sass-cache/.gitignore
+www/web/plop.php
+www/web/info.php
+www/cache/*
+!www/cache/.gitignore
+www/config/config.json

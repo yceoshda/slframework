@@ -1,0 +1,27 @@
+{
+    "menu": {
+        "toggle_navigation": "toggle_navigation",
+        "top": {
+            "home": "home",
+            "about": "about",
+            "contact": "contact",
+            "lang": {
+                "en": "en",
+                "fr": "fr"
+            },
+            "login": "login",
+            "register": "register",
+            "user": {
+                "profile": "profile",
+                "admin": "admin",
+                "logout": "logout"
+            }
+        }
+    },
+    "cnil_compliance":{
+        "text": "cnil compliance",
+        "link": "read link",
+        "btn_ok": "ok",
+        "btn_deny": "deny"
+    }
+}
