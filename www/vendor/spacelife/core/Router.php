@@ -23,6 +23,7 @@ namespace spacelife\core;
 *   Added: ctlSearch to determine wether or not a route is pointing to it
 *       Router::ctlSearch('controller');
 *   Changed: changed str_replace by preg_replace to prevent replacing prefixes words other than first part of url (self::url() method)
+*   Changed: connect parameters handling, /? to / because params will always be with a / before
 **/
 class Router{
 
@@ -52,17 +53,17 @@ class Router{
     public static function parse($url,$request)
     {
         $url = trim($url,'/');
-        if(empty($url)){
+        if (empty($url)) {
             $url = Router::$routes[0]['url'];
             $auth = Router::$routes[0]['auth'];
-        }else{
+        } else {
             $match = false;
-            foreach(Router::$routes as $v){
-                if(!$match && preg_match($v['redirreg'],$url,$match)){
+            foreach (Router::$routes as $v) {
+                if (!$match && preg_match($v['redirreg'], $url, $match)) {
                     $url = $v['origin'];
                     $auth = $v['auth'];
-                    foreach($match as $k=>$v){
-                        $url = str_replace(':'.$k.':',$v,$url);
+                    foreach ($match as $k => $v) {
+                        $url = str_replace(':'.$k.':', $v, $url);
                     }
                     $match = true;
                 }
@@ -70,7 +71,7 @@ class Router{
         }
 
         $params = explode('/',$url);
-        if(in_array($params[0],array_keys(self::$prefixes))){
+        if (in_array($params[0], array_keys(self::$prefixes))) {
             $request->prefix = self::$prefixes[$params[0]];
             array_shift($params);
         }
@@ -94,29 +95,33 @@ class Router{
         $r['auth'] = $auth;
 
         $r['originreg'] = preg_replace('/([a-z0-9]+):([^\/]+)/', '${1}:(?P<${1}>${2})', $url);
-        $r['originreg'] = str_replace('/*','(?P<args>/?.*)',$r['originreg']);
-        $r['originreg'] = '/^'.str_replace('/','\/',$r['originreg']).'$/';
+        $r['originreg'] = str_replace('/*', '(?P<args>/?.*)', $r['originreg']);
+        $r['originreg'] = '/^'.str_replace('/', '\/', $r['originreg']).'$/';
         // MODIF
         $r['origin'] = preg_replace('/([a-z0-9]+):([^\/]+)/', ':${1}:', $url);
         $r['origin'] = str_replace('/*', ':args:', $r['origin']);
 
         $params = explode('/', $url);
+
         //  builing list of controllers
         if (!in_array($params[0], self::$controllers)) {
             self::$controllers[] = $params[0];
         }
+
         foreach($params as $k => $v) {
-            if(strpos($v, ':')) {
+            if (strpos($v, ':')) {
                 $p = explode(':', $v);
                 $r['params'][$p[0]] = $p[1];
             }
         }
 
         $r['redirreg'] = $redir;
-        $r['redirreg'] = str_replace('/*', '(?P<args>/?.*)', $r['redirreg']);
-        foreach($r['params'] as $k => $v) {
+        $r['redirreg'] = str_replace('/*', '(?P<args>/.*)', $r['redirreg']);
+
+        foreach ($r['params'] as $k => $v) {
             $r['redirreg'] = str_replace(":$k", "(?P<$k>$v)", $r['redirreg']);
         }
+
         $r['redirreg'] = '/^'.str_replace('/', '\/', $r['redirreg']).'$/';
 
         $r['redir'] = preg_replace('/:([a-z0-9]+)/', ':${1}:', $redir);
@@ -132,17 +137,16 @@ class Router{
     public static function url($url = '')
     {
         trim($url,'/');
-        foreach(self::$routes as $v){
-            if(preg_match($v['originreg'], $url, $match)) {
+        foreach (self::$routes as $v) {
+            if (preg_match($v['originreg'], $url, $match)) {
                 $url = $v['redir'];
-                foreach($match as $k => $w){
+                foreach ($match as $k => $w) {
                     $url = str_replace(":$k:", $w, $url);
                 }
             }
         }
-        foreach(self::$prefixes as $k=>$v) {
-            if(strpos($url,$v) === 0){
-                // $url = str_replace($v,$k,$url);
+        foreach (self::$prefixes as $k => $v) {
+            if (strpos($url, $v) === 0) {
                 $url = preg_replace("/^$v/", $k, $url);
             }
         }
@@ -151,7 +155,7 @@ class Router{
 
     public static function webroot($url)
     {
-        trim($url,'/');
+        trim($url, '/');
         return BASE_URL.'/'.$url;
     }
 
